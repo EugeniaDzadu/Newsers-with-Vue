@@ -53,7 +53,7 @@
                                     <router-link to="/" class="nav-item nav-link active">Home</router-link >
                                     <router-link to="/Detail-page" class="nav-item nav-link">Detail  Page</router-link >
                                     <router-link to="/404" class="nav-item nav-link">404 Page</router-link >
-                                    <div class="nav-item dropdown">
+                                    <!-- <div class="nav-item dropdown">
                                         <router-link to="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</router-link >
                                         <div class="dropdown-menu m-0 bg-secondary rounded-0">
                                             <router-link to="#" class="dropdown-item">Dropdown 1</router-link >
@@ -61,7 +61,7 @@
                                             <router-link to="#" class="dropdown-item">Dropdown 3</router-link >
                                             <router-link to="#" class="dropdown-item">Dropdown 4</router-link >
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <router-link to="/Contact" class="nav-item nav-link">Contact Us</router-link >
                                 </div>
                                 <div class="d-flex flex-nowrap border-top pt-3 pt-xl-0">

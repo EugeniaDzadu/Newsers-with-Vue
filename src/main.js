@@ -12,7 +12,7 @@ import Error from './pages/404.vue'
 const routes = [
     {path: '/', component: Index},
     {path: '/Contact', component: Contact},
-    {path: '/DetailPage', component: DetailPage},
+    {path: '/Detail-page', component: DetailPage},
     {path: '/404', component: Error}
 ]
 
