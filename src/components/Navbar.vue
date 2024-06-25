@@ -18,7 +18,7 @@
                                 <div class="overflow-hidden" style="width: 735px;">
                                     <div id="note" class="ps-2">
                                         <img src="/img/features-fashion.jpg" class="img-fluid rounded-circle border border-3 border-primary me-2" style="width: 30px; height: 30px;" alt="">
-                                        <a href="#"><p class="text-white mb-0 link-hover">Newsan unknown printer took a galley of type andscrambled Newsan.</p></a>
+                                        <router-link to="#"><p class="text-white mb-0 link-hover">Newsan unknown printer took a galley of type andscrambled Newsan.</p></router-link >
                                     </div>
                                 </div>
                             </div>
@@ -26,13 +26,13 @@
                                 <i class="fas fa-calendar-alt text-white border-end border-secondary pe-2 me-2"> <span class="text-body">Tuesday, Sep 12, 2024</span></i>
                                 <div class="d-flex icon">
                                     <p class="mb-0 text-white me-2">Follow Us:</p>
-                                    <a href="" class="me-2"><i class="fab fa-facebook-f text-body link-hover"></i></a>
-                                    <a href="" class="me-2"><i class="fab fa-twitter text-body link-hover"></i></a>
-                                    <a href="" class="me-2"><i class="fab fa-instagram text-body link-hover"></i></a>
-                                    <a href="" class="me-2"><i class="fab fa-youtube text-body link-hover"></i></a>
-                                    <a href="" class="me-2"><i class="fab fa-linkedin-in text-body link-hover"></i></a>
-                                    <a href="" class="me-2"><i class="fab fa-skype text-body link-hover"></i></a>
-                                    <a href="" class=""><i class="fab fa-pinterest-p text-body link-hover"></i></a>
+                                    <router-link to="" class="me-2"><i class="fab fa-facebook-f text-body link-hover"></i></router-link >
+                                    <router-link to="" class="me-2"><i class="fab fa-twitter text-body link-hover"></i></router-link >
+                                    <router-link to="" class="me-2"><i class="fab fa-instagram text-body link-hover"></i></router-link >
+                                    <router-link to="" class="me-2"><i class="fab fa-youtube text-body link-hover"></i></router-link >
+                                    <router-link to="" class="me-2"><i class="fab fa-linkedin-in text-body link-hover"></i></router-link >
+                                    <router-link to="" class="me-2"><i class="fab fa-skype text-body link-hover"></i></router-link >
+                                    <router-link to="" class=""><i class="fab fa-pinterest-p text-body link-hover"></i></router-link >
                                 </div>
                             </div>
                         </div>
@@ -41,28 +41,28 @@
                 <div class="container-fluid bg-light">
                     <div class="container px-0">
                         <nav class="navbar navbar-light navbar-expand-xl">
-                            <a href="/" class="navbar-brand mt-3">
+                            <router-link to="/" class="navbar-brand mt-3">
                                 <p class="text-primary display-6 mb-2" style="line-height: 0;">Newsers</p>
                                 <small class="text-body fw-normal" style="letter-spacing: 12px;">Nespaper</small>
-                            </a>
+                            </router-link >
                             <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span class="fa fa-bars text-primary"></span>
                             </button>
                             <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
                                 <div class="navbar-nav mx-auto border-top">
-                                    <a href="/" class="nav-item nav-link active">Home</a>
-                                    <a href="/Detail-page" class="nav-item nav-link">Detail  Page</a>
-                                    <a href="/404" class="nav-item nav-link">404 Page</a>
+                                    <router-link to="/" class="nav-item nav-link active">Home</router-link >
+                                    <router-link to="/Detail-page" class="nav-item nav-link">Detail  Page</router-link >
+                                    <router-link to="/404" class="nav-item nav-link">404 Page</router-link >
                                     <div class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                                        <router-link to="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</router-link >
                                         <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                            <a href="#" class="dropdown-item">Dropdown 1</a>
-                                            <a href="#" class="dropdown-item">Dropdown 2</a>
-                                            <a href="#" class="dropdown-item">Dropdown 3</a>
-                                            <a href="#" class="dropdown-item">Dropdown 4</a>
+                                            <router-link to="#" class="dropdown-item">Dropdown 1</router-link >
+                                            <router-link to="#" class="dropdown-item">Dropdown 2</router-link >
+                                            <router-link to="#" class="dropdown-item">Dropdown 3</router-link >
+                                            <router-link to="#" class="dropdown-item">Dropdown 4</router-link >
                                         </div>
                                     </div>
-                                    <a href="/Contact" class="nav-item nav-link">Contact Us</a>
+                                    <router-link to="/Contact" class="nav-item nav-link">Contact Us</router-link >
                                 </div>
                                 <div class="d-flex flex-nowrap border-top pt-3 pt-xl-0">
                                     <div class="d-flex">
