@@ -1,21 +1,21 @@
 <script setup>
-
+import { RouterView } from 'vue-router'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <header>
-    
-
-    <div class="wrapper">
-      <h1>hi</h1>
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="wrapper">
+    <Header />
+    <Navbar/>
+    <main>
+      <RouterView />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <style scoped>
-
+/* Add your styles here */
 </style>
